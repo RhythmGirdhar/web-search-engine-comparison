@@ -1,1 +1,16 @@
-# web-search-engine-comparison
+# Web Search Engine Comparison
+
+Search Engine = DuckDuckGo
+Baseline Search Engine = Google
+Average Percent Overlap = 20.9%
+Average Spearman Coefficient = -8.22
+
+Just based on the average percent overlap of 20.9% and spearman coefficient of -8.22, it is obvious that DuckDuckGo performed worse than Google. This implies that for top 10 results for each query:
+1. Only around 2 urls matched between Google and Duckduckgo 
+2. There is a strong negative correlation between the ranked query results of duckduckgo and google. 
+
+These imply that both search engines use different crawling and ranking algorithms/techniques to display their results to the users. Google uses keyword based search with page rank algorithm along with personalization and localization makes it perform significantly better than any of its contemporaries and hence, it is our baseline. Duckduckgo often uses Bing results and both use semantic based search which is shown to perform well in an NLP-based metric. But in a ranking-based comparison like ours, Google is always outperform any other search engine. 
+
+References - 
+1. https://www.researchgate.net/publication/345215549_Search_Engine_Similarity_Analysis_A_Combined_Content_and_Rankings_Approach 
+2. https://norma.ncirl.ie/2528/1/frankoneill.pdf
